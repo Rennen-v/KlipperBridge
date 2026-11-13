@@ -1,0 +1,30 @@
+# .NET build and test output
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+*.suo
+
+# Visual Studio / Windows
+.vs/
+*.userosscache
+*.sln.docstates
+Thumbs.db
+Desktop.ini
+
+# Local build products, scratch work, and printer-specific configuration
+/work/
+/outputs/
+/publish/
+/AGENTS.md
+/.codex/
+appsettings.*.json
+*.log
+*.tmp
+*.bak
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+secrets.json
