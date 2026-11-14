@@ -59,6 +59,3 @@ The unit tests cover adapter selection, TCP connection lifecycle, timeout/cancel
 
 - Windows IPv4 only; the transport uses the Windows `IP_UNICAST_IF` socket option and binds the selected local address.
 - A VPN or endpoint policy can still deny local traffic. KlipperBridge does not change routes, VPN settings, or network filters.
-- Camera proxying is not implemented by KlipperBridge; Fluidd handles its configured camera stream separately.
-- Windows startup registration has not yet been verified in a reboot/login test.
-- Tray behavior requires a manual Windows session test; do not treat a successful build as runtime validation.
